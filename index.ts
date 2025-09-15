@@ -20,5 +20,5 @@ const codeReviewAgent = async (prompt: string) => {
 };
 
 await codeReviewAgent(
-  "Review the code changes in '../my-agent' directory, make your reviews and suggestions file by file"
+  "Review the code changes in '../my-agent' directory, explicitly generate a commit message, and save the review output to a file named review.md"
 );
